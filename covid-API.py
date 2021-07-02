@@ -12,7 +12,6 @@ def main():
     elif choice == "Date":
         by_date()
 
-
 def by_date():
     country = input("Please enter the country that you want to look at: ")
     from_date,to_date = from_to_dates()
